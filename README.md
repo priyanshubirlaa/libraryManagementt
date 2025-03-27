@@ -190,6 +190,12 @@ ENTRYPOINT ["sh", "-c", "java -Dserver.port=${PORT:-8080} -jar app.jar"]
 - **URL**: `/actuator/shutdown`
 - **Response**: Application shuts down
 
+- ## Future Plans
+
+- **Swagger API Documentation**: Implementing Swagger for API documentation.
+- **SonarQube Integration**: Adding SonarQube for static code analysis and quality checks.
+- **Spring Boot Actuator**: Enhancing application monitoring with Spring Boot Actuator.
+
 ## Challenges Faced
 
 1. **JUnit Testing**: Writing effective unit tests with JUnit and Mockito required careful planning, especially for mocking dependencies and ensuring coverage of all edge cases.
